@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+        <div class="national_parks">
+            <h2>National Park Search</h2>
+            <p>Search by state:</p>
+            <form action="" id="national-park-form">
+                <input type="text" id="state" max="2" pattern="[A-Za-z]+" placeholder="2 letter abbreviations" required>
+                <label for="#results">Results:</label>
+                <input type="number" id="results" min="1" max="10" value="10" required>
+                <input type="submit" value="submit">
+            </form>
+            <div class="national-park-list"></div>
+
+        </div>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    </div>
+</body>
+</html>

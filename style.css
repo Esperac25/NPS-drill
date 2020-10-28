@@ -1,0 +1,10 @@
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parks a img{
+    width:200px;
+    height:200px;
+}
